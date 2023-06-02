@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+}
+
+#loader {
+	width: 100vw;
+	height: 100vh;
+	color: #fff;
+	text-align: center;
+	position: fixed;
+	font-size: 30px;
+	cursor: pointer;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+}
+	
+
+body {
+	background-color: #000;
+
+	display: grid;
+	grid-template-rows: repeat(4, 25vh);
+	grid-template-columns: repeat(4, 25vw);
+	grid-template-areas:
+	"v2 v6 v8 v4"
+	"v12 v1 v1 v10"
+	"v11 v1 v1 v13"
+	"v5 v9 v7 v3";
+	width: 100%;
+	height: 100;
+}
+
+#player {
+	width: 600px;
+	height: 600px;
+}
+
+/* #v1 { */
+/* 	grid-area: v1; */
+/* } */
